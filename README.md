@@ -1,3 +1,10 @@
+Nama         : Raden Rifky Alwansyah Rajasa
+
+NIM          : 312310146
+
+Nama Project : JDMApp 
+
+
 Activity_Main.xml memunculkan home screen
 ![WhatsApp Image 2025-01-03 at 16 39 09_9db2c729](https://github.com/user-attachments/assets/ddbaaede-4b14-4f59-936c-153ad325f728)
 
