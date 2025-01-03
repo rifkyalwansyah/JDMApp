@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/darker_gray">
+
+    <!-- TextView untuk Kategori -->
+    <TextView
+        android:id="@+id/category_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kategori"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Garis di bawah judul -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black"/>
+
+    <!-- Grid Layout untuk tombol logo mobil -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="631dp"
+        android:layout_marginTop="16dp"
+        android:columnCount="2"
+        android:padding="1dp">
+
+        <!-- Tombol Mazda -->
+        <ImageButton
+            android:id="@+id/button_mazda"
+            android:layout_width="152dp"
+            android:layout_height="152dp"
+            android:layout_margin="16dp"
+            android:background="@null"
+            android:contentDescription="Tombol Mazda"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo_mazda" />
+
+        <!-- Tombol Honda (dengan scaleType fitCenter) -->
+        <ImageButton
+            android:id="@+id/button_honda"
+            android:layout_width="131dp"
+            android:layout_height="152dp"
+            android:layout_margin="16dp"
+            android:background="@null"
+            android:contentDescription="Tombol Honda"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo_honda" />
+
+
+        <!-- Tombol Nissan -->
+        <ImageButton
+            android:id="@+id/button_nissan"
+            android:layout_width="153dp"
+            android:layout_height="151dp"
+            android:layout_margin="16dp"
+            android:background="@null"
+            android:contentDescription="Tombol nissan"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo_nissan" />
+
+        <!-- Tombol Toyota -->
+        <ImageButton
+            android:id="@+id/button_toyota"
+            android:layout_width="128dp"
+            android:layout_height="151dp"
+            android:layout_margin="16dp"
+            android:background="@null"
+            android:contentDescription="Tombol toyota"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo_toyota" />
+
+        <!-- Tombol Subaru -->
+        <ImageButton
+            android:id="@+id/button_subaru"
+            android:layout_width="152dp"
+            android:layout_height="129dp"
+            android:layout_margin="16dp"
+            android:background="@null"
+            android:contentDescription="Tombol subaru"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo_subaru" />
+
+        <!-- Tombol Mitsubishi -->
+        <ImageButton
+            android:id="@+id/button_mitsubishi"
+            android:layout_width="128dp"
+            android:layout_height="151dp"
+            android:layout_margin="16dp"
+            android:background="@null"
+            android:contentDescription="Tombol mitsubishi"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo_mitsubishi" />
+
+    </GridLayout>
+
+</LinearLayout>
