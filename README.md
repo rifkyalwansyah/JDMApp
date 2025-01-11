@@ -30,3 +30,26 @@ Activity_Subaru.xml
 
 Activity.Mitsubishi.xml
 ![WhatsApp Image 2025-01-03 at 16 39 13_082dc18c](https://github.com/user-attachments/assets/d3dcadb3-4f16-4ad9-a651-a792ed7eeb59)
+
+
+ketika sudah masuk ke salah satu merk mobil ada button view yang bisa di klik untuk melihat lebih detail informasi tentang merk mobil tersebut 
+
+contohnya : 
+
+Mazda
+![WhatsApp Image 2025-01-11 at 13 00 17_35e834e3](https://github.com/user-attachments/assets/5cf88bb6-0437-4ddb-84e9-d90239f8e662)
+
+Toyota
+![WhatsApp Image 2025-01-11 at 13 00 12_b4bd6d13](https://github.com/user-attachments/assets/4127dfdf-6000-43f6-9dd2-37385650ca1c)
+
+Subaru
+![WhatsApp Image 2025-01-11 at 13 00 13_f0937410](https://github.com/user-attachments/assets/5d7d9202-3402-4c43-ad56-ff8f805ed4c4)
+
+Honda
+![WhatsApp Image 2025-01-11 at 13 00 16_2f06cfe6](https://github.com/user-attachments/assets/900b2728-936b-4e2b-b8ae-a7639aeb75a7)
+
+Nissan
+![WhatsApp Image 2025-01-11 at 13 00 16_bf79d725](https://github.com/user-attachments/assets/0e701647-82df-4872-8f32-92e930b3b366)
+
+Mitsubishi
+![WhatsApp Image 2025-01-11 at 13 00 15_7209e9cb](https://github.com/user-attachments/assets/13860c5a-5fb6-4c0a-86ae-bc87e6142fb2)
