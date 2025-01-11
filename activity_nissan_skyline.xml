@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:background="@android:color/darker_gray">
+
+    <!-- Judul Toyota -->
+    <TextView
+        android:id="@+id/title_toyota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nissan Skyline R34"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <!-- Garis horizontal -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/nissan_skyline_r34" />
+
+    <TextView
+        android:id="@+id/description_toyota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nissan Skyline R34 adalah salah satu mobil sport legendaris yang diproduksi oleh Nissan antara tahun 1999 hingga 2002. Dikenal sebagai generasi kelima dari lini Skyline, R34 memiliki desain yang agresif dan canggih, dengan fitur-fitur modern pada masanya. Mobil ini dipersenjatai dengan mesin RB26DETT 2.6 liter twin-turbo inline-6 yang mampu menghasilkan lebih dari 280 hp, membuatnya sangat populer di kalangan penggemar mobil performa tinggi. Skyline R34 juga terkenal karena peran ikoniknya dalam film Fast &amp; Furious yang semakin memperkuat statusnya sebagai mobil legenda. Dengan handling yang luar biasa dan teknologi canggih, R34 menjadi simbol dari era mobil sport Jepang di akhir 1990-an hingga awal 2000-an."
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
