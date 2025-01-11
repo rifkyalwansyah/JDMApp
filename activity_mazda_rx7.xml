@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:background="@android:color/darker_gray">
+
+    <!-- Judul Toyota -->
+    <TextView
+        android:id="@+id/title_toyota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mazda RX 7 FC"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <!-- Garis horizontal -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="228dp"
+        app:srcCompat="@drawable/mazda_rx7_fc" />
+
+    <TextView
+        android:id="@+id/description_toyota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mazda RX-7 FC, diproduksi dari 1985 hingga 1992, adalah generasi kedua dari seri RX-7 yang terkenal karena menggunakan mesin rotary 13B turbocharged. Mesin ini menghasilkan tenaga yang impresif dan memungkinkan putaran mesin tinggi, memberikan akselerasi cepat dan performa yang dinamis. Desain aerodinamis RX-7 FC, yang terinspirasi dari Porsche 944, serta suspensi independennya, membuatnya memiliki handling yang luar biasa dan distribusi berat yang hampir sempurna 50:50. Ini menjadikan RX-7 FC sangat populer di ajang balap dan drifting. Selain performa, mobil ini juga menawarkan kenyamanan yang baik untuk penggunaan sehari-hari. Hingga kini, RX-7 FC tetap menjadi favorit penggemar mobil sport klasik dan kolektor, terutama karena keunikan mesin rotary-nya dan potensi besar untuk modifikasi."
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
